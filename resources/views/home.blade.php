@@ -57,9 +57,9 @@
                     Contactanos
                 </a> 
 
-                <form action="{{route ('logout') }}" method="post">
+                <form id="frm-salir" action="{{route ('logout') }}" method="post">
                     @csrf
-                    <button class="btn btn-danger bottom-center">Salir</button>
+                    <button class="btn-salir btn btn-danger">Salir</button>
                 </form>
             </div>
         </div>

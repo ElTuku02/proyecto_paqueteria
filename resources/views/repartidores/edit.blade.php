@@ -1,4 +1,4 @@
-@extends("layouts.app1")
+@extends("layouts.tablas")
 @section("contenido")
 
     @if ($errors->any())
